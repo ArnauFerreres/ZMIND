@@ -6,7 +6,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed;
 
-
+    public float xPos;
+    public float xLimitV = 9.5f;
     [Header("Projectile Settings")]
     public GameObject bullet;
     public Transform firePoint;
@@ -23,6 +24,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        LimitsControl();
        currentFireRate += Time.deltaTime;
 
         if (currentFireRate > fireRate)
@@ -43,5 +45,21 @@ public class Player : MonoBehaviour
     public void StopMoving()
     {
         rb.velocity = Vector2.zero;
+    }
+    void LimitsControl()
+    {
+        xPos = transform.position.x;
+        //Control X
+
+        if (xPos > xLimitV)
+        {
+            xPos = xLimitV;
+        }
+        else if (xPos < -xLimitV)
+        {
+            xPos = -xLimitV;
+        }
+
+        transform.position = new Vector3(xPos, 0, 0);
     }
 }
