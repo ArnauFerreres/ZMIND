@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed;
 
-    public float xPos;
+    private float xPos;
     public float xLimitV = 9.5f;
     [Header("Projectile Settings")]
     public GameObject bullet;
@@ -32,6 +32,14 @@ public class Player : MonoBehaviour
             currentFireRate = 0;
             GameObject _projectile = Instantiate(bullet, firePoint.position, Quaternion.identity);
             _projectile.GetComponent<BulletController>().SetProjectile(Vector2.down, impulse, "Enemy");
+        }
+        if(Input.GetKey(KeyCode.A))
+        {
+            MoveLeft();
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            MoveRight();
         }
     }
     public void MoveRight()
