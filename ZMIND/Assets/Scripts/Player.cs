@@ -33,13 +33,21 @@ public class Player : MonoBehaviour
             GameObject _projectile = Instantiate(bullet, firePoint.position, Quaternion.identity);
             _projectile.GetComponent<BulletController>().SetProjectile(Vector2.down, impulse, "Enemy");
         }
-        if(Input.GetKey(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             MoveLeft();
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKeyUp(KeyCode.A))
+        {
+            StopMoving();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
         {
             MoveRight();
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            StopMoving();
         }
     }
     public void MoveRight()
