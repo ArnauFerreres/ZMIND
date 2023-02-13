@@ -1532,6 +1532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  xPos: 0
+  xLimitV: 2.09
   bullet: {fileID: 5627519791558534698, guid: c1b52508b7dd57e4b921524b02a52f3c, type: 3}
   firePoint: {fileID: 78955747}
   impulse: 25
