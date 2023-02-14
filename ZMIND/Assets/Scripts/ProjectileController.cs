@@ -15,14 +15,5 @@ public class ProjectileController : MonoBehaviour
     {
         
     }
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.GetComponent<iTakeItem>() != null)
-    //        other.GetComponent<iTakeItem>().TakeItem();
-    //}
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Enemy")
-            Destroy(gameObject);
-    }
+
 }

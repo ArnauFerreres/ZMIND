@@ -33,14 +33,11 @@ public class BulletController : MonoBehaviour
         tagName = _tag;
     }
 
-    ////private void OnTriggerEnter2D(Collider2D collision)
-    ////{
-    ////  
-
-    ////    Destroy();
-    //}
-    void Destroy()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
+        if (other.GetComponent<iTakeItem>() != null)
+            other.GetComponent<iTakeItem>().TakeItem();
+        if (other.gameObject.tag == "Enemy")
+            Destroy(gameObject);
     }
 }
