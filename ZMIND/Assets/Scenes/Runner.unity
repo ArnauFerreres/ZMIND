@@ -318,6 +318,141 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &345149205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345149206}
+  - component: {fileID: 345149208}
+  - component: {fileID: 345149207}
+  m_Layer: 5
+  m_Name: BonesScore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &345149206
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345149205}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1148134296}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 395, y: 882}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &345149207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345149205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 65.03
+  m_fontSizeBase: 65.03
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &345149208
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345149205}
+  m_CullTransparentMesh: 1
 --- !u!1 &395067652
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +466,7 @@ GameObject:
   - component: {fileID: 395067657}
   - component: {fileID: 395067656}
   - component: {fileID: 395067655}
+  - component: {fileID: 395067658}
   m_Layer: 0
   m_Name: Zombie (1)
   m_TagString: Enemy
@@ -417,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &395067656
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -454,6 +591,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &395067658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395067652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &403129504
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +692,7 @@ GameObject:
   - component: {fileID: 423582067}
   - component: {fileID: 423582066}
   - component: {fileID: 423582065}
+  - component: {fileID: 423582068}
   m_Layer: 0
   m_Name: Zombie (12)
   m_TagString: Enemy
@@ -629,6 +779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &423582066
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -666,6 +817,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &423582068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423582062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &486150787
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +842,7 @@ GameObject:
   - component: {fileID: 486150792}
   - component: {fileID: 486150791}
   - component: {fileID: 486150790}
+  - component: {fileID: 486150793}
   m_Layer: 0
   m_Name: Zombie (13)
   m_TagString: Enemy
@@ -765,6 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &486150791
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -802,6 +967,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &486150793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486150787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +1076,7 @@ GameObject:
   - component: {fileID: 548003204}
   - component: {fileID: 548003203}
   - component: {fileID: 548003202}
+  - component: {fileID: 548003205}
   m_Layer: 0
   m_Name: Zombie (5)
   m_TagString: Enemy
@@ -985,6 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &548003203
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1022,6 +1201,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &548003205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548003199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &555080199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1300,7 @@ GameObject:
   - component: {fileID: 584576344}
   - component: {fileID: 584576343}
   - component: {fileID: 584576342}
+  - component: {fileID: 584576345}
   m_Layer: 0
   m_Name: Zombie (4)
   m_TagString: Enemy
@@ -1195,6 +1387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &584576343
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1232,6 +1425,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &584576345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584576339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &648819249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,9 +1617,10 @@ GameObject:
   - component: {fileID: 723719740}
   - component: {fileID: 723719739}
   - component: {fileID: 723719738}
+  - component: {fileID: 723719742}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: UIController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1506,6 +1712,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &723719742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723719737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7e72e8bb9bc5c4bba861196a426557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!1 &838721085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,6 +2029,7 @@ GameObject:
   - component: {fileID: 1072433760}
   - component: {fileID: 1072433759}
   - component: {fileID: 1072433758}
+  - component: {fileID: 1072433761}
   m_Layer: 0
   m_Name: Zombie (9)
   m_TagString: Enemy
@@ -1896,6 +2116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1072433759
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1933,6 +2154,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1072433761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072433755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1134714695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +2179,7 @@ GameObject:
   - component: {fileID: 1134714700}
   - component: {fileID: 1134714699}
   - component: {fileID: 1134714698}
+  - component: {fileID: 1134714701}
   m_Layer: 0
   m_Name: Zombie (3)
   m_TagString: Enemy
@@ -2032,6 +2266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1134714699
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2069,6 +2304,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1134714701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134714695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1148134295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2345,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1726962095}
+  - {fileID: 345149206}
   - {fileID: 555080200}
   m_Father: {fileID: 723719741}
   m_RootOrder: -1
@@ -2120,6 +2368,7 @@ GameObject:
   - component: {fileID: 1229800133}
   - component: {fileID: 1229800132}
   - component: {fileID: 1229800131}
+  - component: {fileID: 1229800134}
   m_Layer: 0
   m_Name: Zombie (11)
   m_TagString: Enemy
@@ -2206,6 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1229800132
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2243,6 +2493,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1229800134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229800128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242182107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2512,6 +2774,7 @@ GameObject:
   - component: {fileID: 1471504671}
   - component: {fileID: 1471504670}
   - component: {fileID: 1471504669}
+  - component: {fileID: 1471504672}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Enemy
@@ -2598,6 +2861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1471504670
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2635,6 +2899,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1471504672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471504666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1551618273
 GameObject:
   m_ObjectHideFlags: 0
@@ -2648,6 +2924,7 @@ GameObject:
   - component: {fileID: 1551618278}
   - component: {fileID: 1551618277}
   - component: {fileID: 1551618276}
+  - component: {fileID: 1551618279}
   m_Layer: 0
   m_Name: Zombie (8)
   m_TagString: Enemy
@@ -2734,6 +3011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1551618277
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2771,6 +3049,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1551618279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551618273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1583359035
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,7 +3343,7 @@ GameObject:
   - component: {fileID: 1726962097}
   - component: {fileID: 1726962096}
   m_Layer: 5
-  m_Name: BonesScore
+  m_Name: X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3076,7 +3366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395, y: 882}
+  m_AnchoredPosition: {x: 340.52, y: 888.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1726962096
@@ -3099,7 +3389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: x 0
+  m_text: x
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3499,6 +3789,7 @@ GameObject:
   - component: {fileID: 1934520512}
   - component: {fileID: 1934520511}
   - component: {fileID: 1934520510}
+  - component: {fileID: 1934520513}
   m_Layer: 0
   m_Name: Zombie (10)
   m_TagString: Enemy
@@ -3585,6 +3876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &1934520511
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3622,6 +3914,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1934520513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934520507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2032155002
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,6 +3939,7 @@ GameObject:
   - component: {fileID: 2032155007}
   - component: {fileID: 2032155006}
   - component: {fileID: 2032155005}
+  - component: {fileID: 2032155008}
   m_Layer: 0
   m_Name: Zombie (2)
   m_TagString: Enemy
@@ -3721,6 +4026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &2032155006
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3758,6 +4064,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2032155008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032155002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2112384947
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,6 +4300,7 @@ GameObject:
   - component: {fileID: 2130952945}
   - component: {fileID: 2130952944}
   - component: {fileID: 2130952943}
+  - component: {fileID: 2130952946}
   m_Layer: 0
   m_Name: Zombie (7)
   m_TagString: Enemy
@@ -4068,6 +4387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &2130952944
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4105,6 +4425,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2130952946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130952940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2133013064
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4495,7 @@ GameObject:
   - component: {fileID: 2135469604}
   - component: {fileID: 2135469603}
   - component: {fileID: 2135469602}
+  - component: {fileID: 2135469605}
   m_Layer: 0
   m_Name: Zombie (6)
   m_TagString: Enemy
@@ -4249,6 +4582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d68cf9db119bd4cb8233a9543fc50a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinsTextCounter: {fileID: 345149207}
 --- !u!58 &2135469603
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4286,6 +4620,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2135469605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135469599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff46cab2d52b1f4eab0572f72ad0370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2135870449
 GameObject:
   m_ObjectHideFlags: 0

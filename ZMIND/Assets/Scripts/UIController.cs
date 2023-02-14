@@ -1,18 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class UIController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("HUD Panel Settings")]
+    [SerializeField] private TextMeshProUGUI coinsTextCounter;
 
-    // Update is called once per frame
-    void Update()
+    int totalCoins = 0;
+
+    public void UpdateTotalCoins()
     {
-        
+        totalCoins++;
+        coinsTextCounter.text = totalCoins.ToString();
     }
 }
