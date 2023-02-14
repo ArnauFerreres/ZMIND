@@ -8,7 +8,7 @@ public class ObstacleController : MonoBehaviour
     public obstacleType currentObstacleType = obstacleType.Rock;
     public GameObject Player;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {   
             if(collision.gameObject.tag == "Player")
         {
@@ -20,7 +20,7 @@ public class ObstacleController : MonoBehaviour
             if(currentObstacleType == obstacleType.Oil)
             {
                 Debug.Log("Aceitito");
-                
+                Player.transform.position = new Vector3(0, -1.5f, 0);
             }
             
         }
