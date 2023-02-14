@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float moveSpeed;
 
     private float xPos;
+    private float yPos;
     public float xLimitV = 9.5f;
     [Header("Projectile Settings")]
     public GameObject bullet;
@@ -65,6 +66,7 @@ public class Player : MonoBehaviour
     void LimitsControl()
     {
         xPos = transform.position.x;
+        yPos = transform.position.y;
         //Control X
 
         if (xPos > xLimitV)
@@ -76,6 +78,12 @@ public class Player : MonoBehaviour
             xPos = -xLimitV;
         }
 
-        transform.position = new Vector3(xPos, 0, 0);
+        if(yPos <= -2.3)
+        {
+            Destroy(gameObject);
+        }
+
+        transform.position = new Vector3(xPos, yPos, 0);
     }
+
 }
