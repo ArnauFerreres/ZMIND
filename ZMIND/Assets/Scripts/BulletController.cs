@@ -13,11 +13,12 @@ public class BulletController : MonoBehaviour
 
     Vector2 direction;
     Rigidbody2D rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        Invoke("Destroy", 5f);
+        Invoke("Destroy", 2f);
     }
 
     // Update is called once per frame
@@ -31,6 +32,11 @@ public class BulletController : MonoBehaviour
         direction = _direction;
         impulse = _impulse;
         tagName = _tag;
+    }
+
+    void Destroy()
+    {
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
