@@ -166,6 +166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Oil
       objectReference: {fileID: 0}
+    - target: {fileID: 5379648306757775288, guid: e0ab7c8531581fb488f477a3858d9d2e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5379648306757775289, guid: e0ab7c8531581fb488f477a3858d9d2e, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1797,6 +1801,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1794517476832762933, guid: 704392db9b37f98449d90c7b9d080996, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1794517476832762935, guid: 704392db9b37f98449d90c7b9d080996, type: 3}
       propertyPath: m_Name
       value: Rock
