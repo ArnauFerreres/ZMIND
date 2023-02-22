@@ -374,6 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: a4ebddaabe89b764999e6ba04696c41b, type: 2}
   soundPlayer: {fileID: 0}
+  sliderMusic: {fileID: 0}
 --- !u!114 &430811365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2852,6 +2853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 3752a75543709134f96aaa78fca1fd96, type: 2}
   soundPlayer: {fileID: 0}
+  sliderMusic: {fileID: 1891533946}
 --- !u!1 &1942346052
 GameObject:
   m_ObjectHideFlags: 0
