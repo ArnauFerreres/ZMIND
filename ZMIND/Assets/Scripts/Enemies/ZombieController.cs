@@ -30,14 +30,9 @@ public class ZombieController : MonoBehaviour
         totalCoins++;
         coinsTextCounter.text = totalCoins.ToString();
     }
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Projectile")
-    //        UpdateTotalCoins();
-    //        Destroy(gameObject);
-    //}
 
-    private void OnCollisionEnter2D(Collider2D other)
+
+    public void OnCollisionEnter2D(Collider2D other)
     {
         if (other.tag == "Projectile")
         {
